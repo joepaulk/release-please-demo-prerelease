@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0-rc.1](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.0-rc...v1.11.0-rc.1) (2025-09-17)
+
+
+### Features
+
+* **103:** updated the heading ([#7](https://github.com/joepaulk/release-please-demo-prerelease/issues/7)) ([c54443c](https://github.com/joepaulk/release-please-demo-prerelease/commit/c54443c484ad6d386c450032d85faeac5af4e2fc))
+
 ## [1.11.0-rc](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.10.6...v1.11.0-rc) (2025-09-17)
 
 
