@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0-rc.3](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.0-rc.2...v1.11.0-rc.3) (2025-09-17)
+
+
+### Bug Fixes
+
+* **9001:** login error info is updated ([#11](https://github.com/joepaulk/release-please-demo-prerelease/issues/11)) ([ba67be2](https://github.com/joepaulk/release-please-demo-prerelease/commit/ba67be2b2d78e1b5f9fc526306ed2412cde8fcb8))
+
 ## [1.11.0-rc.2](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.0-rc.1...v1.11.0-rc.2) (2025-09-17)
 
 
