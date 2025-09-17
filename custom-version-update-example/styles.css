@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
