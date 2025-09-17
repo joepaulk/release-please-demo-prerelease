@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0-rc.2](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.0-rc.1...v1.11.0-rc.2) (2025-09-17)
+
+
+### Features
+
+* **103:** added company style ([#9](https://github.com/joepaulk/release-please-demo-prerelease/issues/9)) ([f21a365](https://github.com/joepaulk/release-please-demo-prerelease/commit/f21a36598c3140ddde6b6cfcdc6b3f62b0a046dd))
+
 ## [1.11.0-rc.1](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.0-rc...v1.11.0-rc.1) (2025-09-17)
 
 
