@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1-rc](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.0...v1.11.1-rc) (2025-09-18)
+
+
+### Bug Fixes
+
+* emergency login redirects ([#13](https://github.com/joepaulk/release-please-demo-prerelease/issues/13)) ([bedc310](https://github.com/joepaulk/release-please-demo-prerelease/commit/bedc310bae355aa2951ac63a3176f3c6621b960e))
+
 ## [1.11.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.10.6...v1.11.0) (2025-09-17)
 
 
