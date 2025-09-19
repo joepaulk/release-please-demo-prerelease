@@ -5,7 +5,7 @@ on:
   push:
     branches:
     - main
-    - hotfix/*
+    - release-hotfix
 
 # The different jobs of this workflow need the following permissions
 permissions:
@@ -46,7 +46,7 @@ jobs:
     outputs:
       releases_created: ${{ steps.release.outputs.releases_created }}
       tag_name: ${{ steps.release.outputs.tag_name }}
-    if: "!startsWith(github.ref, 'refs/heads/hotfix/')"
+    if: ${{ github.ref == 'refs/heads/main' }}
     steps:
       - id: release
         name: Run prerelease release-please
@@ -64,7 +64,7 @@ jobs:
     outputs:
       releases_created: ${{ steps.release.outputs.releases_created }}
       tag_name: ${{ steps.release.outputs.tag_name }}
-    if: "startsWith(github.ref, 'refs/heads/hotfix/')"
+    if: ${{ github.ref == 'refs/heads/release-hotfix' }}
     steps:
       - id: hotfixrelease
         name: Run hotfix release-please
