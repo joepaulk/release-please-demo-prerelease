@@ -6,7 +6,7 @@ on:
     branches:
     - main
     - hotfix/*
-    
+
 # The different jobs of this workflow need the following permissions
 permissions:
   contents: write
