@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.14.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.13.0...v1.14.0) (2025-09-19)
+
+
+### Features
+
+* updated the titles for the relese workflow jobs ([#31](https://github.com/joepaulk/release-please-demo-prerelease/issues/31)) ([4932979](https://github.com/joepaulk/release-please-demo-prerelease/commit/49329792fe564bc652ed2f5b7a0d8777b9ec7fa2))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.14.0-rc ([#32](https://github.com/joepaulk/release-please-demo-prerelease/issues/32)) ([ef9f523](https://github.com/joepaulk/release-please-demo-prerelease/commit/ef9f5230d51ab9efddf5ccfec6a0dbaeac6fee23))
+* updated the release please tasks ([#34](https://github.com/joepaulk/release-please-demo-prerelease/issues/34)) ([19dfb0a](https://github.com/joepaulk/release-please-demo-prerelease/commit/19dfb0ada0bd824616237b1f79fb625aa28d921c))
+
 ## [1.14.0-rc](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.13.0...v1.14.0-rc) (2025-09-19)
 
 
