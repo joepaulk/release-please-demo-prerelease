@@ -57,6 +57,17 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           target-branch: ${{ github.ref_name }}
 
+  # This job runs tests before the creation of the prerelease
+  prerelease-test:
+    name: Run Prerelease Tests
+    runs-on: ubuntu-latest
+    if: ${{ needs.prerelease-prep.outputs.releases_created == 'false' }}
+    needs: [ prerelease-prep ]
+    steps:
+      - name: Release Build Push Deploy
+        run: |
+          echo "Prerelease Tests"
+          
   hotfixrelease-prep:
     name: Create Hotfix Release Pull Request
     runs-on: ubuntu-latest
@@ -74,17 +85,6 @@ jobs:
           manifest-file: ".github/release-manifest.json"
           token: ${{ secrets.GH_PAT }}
           target-branch: ${{ github.ref_name }}
-
-  # This job runs tests before the creation of the prerelease
-  prerelease-test:
-    name: Run Prerelease Tests
-    runs-on: ubuntu-latest
-    if: ${{ needs.prerelease-prep.outputs.releases_created == 'false' }}
-    needs: [ prerelease-prep ]
-    steps:
-      - name: Release Build Push Deploy
-        run: |
-          echo "Prerelease Tests"
 
   # This job runs creates the Prerelease and creates a subsequent Release Pull Request
   prerelease:
@@ -148,7 +148,7 @@ jobs:
           echo "Running post-release steps!"
 
   post-release-hotfix:
-    name: Post Release Steps
+    name: Post Hotfix Release Steps
     runs-on: ubuntu-latest
     needs: [ releaseHotfix ]
     steps:
