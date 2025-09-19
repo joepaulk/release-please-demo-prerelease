@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.13.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.12.0...v1.13.0) (2025-09-19)
+
+
+### Features
+
+* **135:** Integration with LLM Models - Open AI GPT4.1 ([#25](https://github.com/joepaulk/release-please-demo-prerelease/issues/25)) ([022fb97](https://github.com/joepaulk/release-please-demo-prerelease/commit/022fb970bef1437924220262260a26961473075c))
+* **136:** Integrated billing with Gemini 2.4 ([#27](https://github.com/joepaulk/release-please-demo-prerelease/issues/27)) ([20275ac](https://github.com/joepaulk/release-please-demo-prerelease/commit/20275ac0b2d6a98d81c8a87aa8b12773b860020e))
+* enabled hotfix release-please path ([#28](https://github.com/joepaulk/release-please-demo-prerelease/issues/28)) ([a617fff](https://github.com/joepaulk/release-please-demo-prerelease/commit/a617fff908e901d3c76a77b30c9bcd305e251c98))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.13.0-rc ([#26](https://github.com/joepaulk/release-please-demo-prerelease/issues/26)) ([7e70a26](https://github.com/joepaulk/release-please-demo-prerelease/commit/7e70a265d762cfd93ca8058e5747db565aded102))
+
 ## [1.13.0-rc](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.12.0...v1.13.0-rc) (2025-09-19)
 
 
