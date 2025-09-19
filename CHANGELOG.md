@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.1](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.13.0...v1.13.1) (2025-09-19)
+
+
+### Bug Fixes
+
+* **10004:** Fix for copyright information ([16778ce](https://github.com/joepaulk/release-please-demo-prerelease/commit/16778ce19e5eca524fd0fd78e1f713259236ecc4))
+
 ## [1.13.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.12.0...v1.13.0) (2025-09-19)
 
 
