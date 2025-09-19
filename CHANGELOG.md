@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.1](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.14.0...v1.14.1) (2025-09-19)
+
+
+### Bug Fixes
+
+* **10005:** updated the copyright information for copilot ([#38](https://github.com/joepaulk/release-please-demo-prerelease/issues/38)) ([6d5c741](https://github.com/joepaulk/release-please-demo-prerelease/commit/6d5c74131e0b392e873d23278343ea06a450ad9c))
+
 ## [1.14.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.13.0...v1.14.0) (2025-09-19)
 
 
