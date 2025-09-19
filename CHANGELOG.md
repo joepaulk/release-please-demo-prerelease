@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.12.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.1...v1.12.0) (2025-09-19)
+
+
+### Features
+
+* **120:** accessibility upgrades to sites ([#20](https://github.com/joepaulk/release-please-demo-prerelease/issues/20)) ([edc6a66](https://github.com/joepaulk/release-please-demo-prerelease/commit/edc6a663b20d0241987bd93a4a93bf9ae3b4dd0a))
+* **130:** added azure ad integration ([#16](https://github.com/joepaulk/release-please-demo-prerelease/issues/16)) ([0fb86fd](https://github.com/joepaulk/release-please-demo-prerelease/commit/0fb86fd3f12a725732383329277e44d049d67c94))
+* **131:** MFA enabled for login ([#18](https://github.com/joepaulk/release-please-demo-prerelease/issues/18)) ([13c45ae](https://github.com/joepaulk/release-please-demo-prerelease/commit/13c45ae62b8c87275f8c45f7e34d114b34cbbb3c))
+
+
+### Bug Fixes
+
+* **10002:** emergency fix for login ([#19](https://github.com/joepaulk/release-please-demo-prerelease/issues/19)) ([2d627dd](https://github.com/joepaulk/release-please-demo-prerelease/commit/2d627dda1ca7dda7975cd4dee5762b72a91d6a92))
+
+
+### Miscellaneous Chores
+
+* **121:** Enable release pipeline for hotfix releases ([#22](https://github.com/joepaulk/release-please-demo-prerelease/issues/22)) ([613596d](https://github.com/joepaulk/release-please-demo-prerelease/commit/613596d304e2fa3664415a34cd704505bc9d4e01))
+* **main:** release 1.12.0-rc ([#17](https://github.com/joepaulk/release-please-demo-prerelease/issues/17)) ([c293c14](https://github.com/joepaulk/release-please-demo-prerelease/commit/c293c14ddaa290dea92e4247f892e765f6dcb9f5))
+* updated release pr to manage hotfix branch commits ([#21](https://github.com/joepaulk/release-please-demo-prerelease/issues/21)) ([413711d](https://github.com/joepaulk/release-please-demo-prerelease/commit/413711d0370ce5d182f5ea42a65dac6bb9ef0cc0))
+
 ## [1.12.0-rc](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.11.1...v1.12.0-rc) (2025-09-19)
 
 
