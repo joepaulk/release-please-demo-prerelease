@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.17.0-rc](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.16.1...v1.17.0-rc) (2025-09-22)
+
+
+### Features
+
+* **101:** new login page ([#3](https://github.com/joepaulk/release-please-demo-prerelease/issues/3)) ([0f7589a](https://github.com/joepaulk/release-please-demo-prerelease/commit/0f7589ab9a4870b07d3e6a472f293572db79445b))
+* **102:** added a new footer ([#5](https://github.com/joepaulk/release-please-demo-prerelease/issues/5)) ([ae00794](https://github.com/joepaulk/release-please-demo-prerelease/commit/ae007942bec3bf3c580d61fbf3b97015b4efdc71))
+* **103:** added company style ([#9](https://github.com/joepaulk/release-please-demo-prerelease/issues/9)) ([f21a365](https://github.com/joepaulk/release-please-demo-prerelease/commit/f21a36598c3140ddde6b6cfcdc6b3f62b0a046dd))
+* **103:** updated the heading ([#7](https://github.com/joepaulk/release-please-demo-prerelease/issues/7)) ([c54443c](https://github.com/joepaulk/release-please-demo-prerelease/commit/c54443c484ad6d386c450032d85faeac5af4e2fc))
+* **120:** accessibility upgrades to sites ([#20](https://github.com/joepaulk/release-please-demo-prerelease/issues/20)) ([edc6a66](https://github.com/joepaulk/release-please-demo-prerelease/commit/edc6a663b20d0241987bd93a4a93bf9ae3b4dd0a))
+* **130:** added azure ad integration ([#16](https://github.com/joepaulk/release-please-demo-prerelease/issues/16)) ([0fb86fd](https://github.com/joepaulk/release-please-demo-prerelease/commit/0fb86fd3f12a725732383329277e44d049d67c94))
+* **131:** MFA enabled for login ([#18](https://github.com/joepaulk/release-please-demo-prerelease/issues/18)) ([13c45ae](https://github.com/joepaulk/release-please-demo-prerelease/commit/13c45ae62b8c87275f8c45f7e34d114b34cbbb3c))
+* **135:** Integration with LLM Models - Open AI GPT4.1 ([#25](https://github.com/joepaulk/release-please-demo-prerelease/issues/25)) ([022fb97](https://github.com/joepaulk/release-please-demo-prerelease/commit/022fb970bef1437924220262260a26961473075c))
+* **136:** Integrated billing with Gemini 2.4 ([#27](https://github.com/joepaulk/release-please-demo-prerelease/issues/27)) ([20275ac](https://github.com/joepaulk/release-please-demo-prerelease/commit/20275ac0b2d6a98d81c8a87aa8b12773b860020e))
+* **150:** Integrated with CoPilot ([#36](https://github.com/joepaulk/release-please-demo-prerelease/issues/36)) ([2c6ed99](https://github.com/joepaulk/release-please-demo-prerelease/commit/2c6ed996aff52fe5e3beb47b3dac8bb73443140d))
+* **150:** uplifted the release please triggers for hotfix ([#42](https://github.com/joepaulk/release-please-demo-prerelease/issues/42)) ([d4c636c](https://github.com/joepaulk/release-please-demo-prerelease/commit/d4c636c4efd1a4ac351e773951d3033afc615b78))
+* **152:** the gold 152 ([#45](https://github.com/joepaulk/release-please-demo-prerelease/issues/45)) ([838928f](https://github.com/joepaulk/release-please-demo-prerelease/commit/838928f137f0f0f51b4fe15117cf0c8793b5b38e))
+* enabled hotfix release-please path ([#28](https://github.com/joepaulk/release-please-demo-prerelease/issues/28)) ([a617fff](https://github.com/joepaulk/release-please-demo-prerelease/commit/a617fff908e901d3c76a77b30c9bcd305e251c98))
+* updated the titles for the relese workflow jobs ([#31](https://github.com/joepaulk/release-please-demo-prerelease/issues/31)) ([4932979](https://github.com/joepaulk/release-please-demo-prerelease/commit/49329792fe564bc652ed2f5b7a0d8777b9ec7fa2))
+
+
+### Bug Fixes
+
+* **10002:** emergency fix for login ([#19](https://github.com/joepaulk/release-please-demo-prerelease/issues/19)) ([2d627dd](https://github.com/joepaulk/release-please-demo-prerelease/commit/2d627dda1ca7dda7975cd4dee5762b72a91d6a92))
+* **10005:** Fix for updating copyright information ([#40](https://github.com/joepaulk/release-please-demo-prerelease/issues/40)) ([205ab75](https://github.com/joepaulk/release-please-demo-prerelease/commit/205ab75ce0ae485588319581cc6f544ecbaefb23))
+* **9001:** login error info is updated ([#11](https://github.com/joepaulk/release-please-demo-prerelease/issues/11)) ([ba67be2](https://github.com/joepaulk/release-please-demo-prerelease/commit/ba67be2b2d78e1b5f9fc526306ed2412cde8fcb8))
+* emergency login redirects ([#13](https://github.com/joepaulk/release-please-demo-prerelease/issues/13)) ([bedc310](https://github.com/joepaulk/release-please-demo-prerelease/commit/bedc310bae355aa2951ac63a3176f3c6621b960e))
+
 ## [1.16.1](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.16.0...v1.16.1) (2025-09-22)
 
 
