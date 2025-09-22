@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.16.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.15.0...v1.16.0) (2025-09-22)
+
+
+### Features
+
+* **150:** uplifted the release please triggers for hotfix ([#42](https://github.com/joepaulk/release-please-demo-prerelease/issues/42)) ([d4c636c](https://github.com/joepaulk/release-please-demo-prerelease/commit/d4c636c4efd1a4ac351e773951d3033afc615b78))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.16.0-rc ([#43](https://github.com/joepaulk/release-please-demo-prerelease/issues/43)) ([27f42b6](https://github.com/joepaulk/release-please-demo-prerelease/commit/27f42b6cfd77e726cd6de6f93ee4735bf983e1b7))
+
 ## [1.16.0-rc](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.15.0...v1.16.0-rc) (2025-09-22)
 
 
