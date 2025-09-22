@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.17.1](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.17.0...v1.17.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* updated copyright ([b42e013](https://github.com/joepaulk/release-please-demo-prerelease/commit/b42e01334d89d8b224aa5b32113270fd9a2805c5))
+* updated the hotfix release process ([814ed64](https://github.com/joepaulk/release-please-demo-prerelease/commit/814ed6473aaeac9a78a2ac79e3b8534cccbadb84))
+
 ## [1.17.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.16.1...v1.17.0) (2025-09-22)
 
 
