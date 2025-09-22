@@ -3,6 +3,7 @@
   "prerelease": true,
   "prerelease-type": "rc",
   "versioning": "prerelease",
+  "include-v-in-tag": "true",
   "changelog-sections": [
     { "type": "feat", "hidden": false, "section": "Features" },
     { "type": "fix", "hidden": false, "section": "Bug Fixes" },

@@ -1,6 +1,7 @@
 {
   "release-type": "simple",
   "prerelease": false,
+  "include-v-in-tag": "true",
   "changelog-sections": [
     { "type": "feat", "hidden": false, "section": "Features" },
     { "type": "fix", "hidden": false, "section": "Bug Fixes" },
