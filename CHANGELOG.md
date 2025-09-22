@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.1](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.16.0...v1.16.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* updated feature 151 ([e52f509](https://github.com/joepaulk/release-please-demo-prerelease/commit/e52f509c00a5e287bb2e643e6607a499ddd209c8))
+
 ## [1.16.0](https://github.com/joepaulk/release-please-demo-prerelease/compare/v1.15.0...v1.16.0) (2025-09-22)
 
 
