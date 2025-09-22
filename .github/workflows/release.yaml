@@ -138,12 +138,25 @@ jobs:
         run: |
           echo "Running post-release steps!"
 
+  release-hotfix-checks:
+    name: Checks for Hotfix Release
+    runs-on: ubuntu-latest
+    needs:
+      - hotfixrelease-prep
+    steps:
+      - name: Release Step
+        run: |
+          echo "Running hotfix release checks..."
+          echo "Release Created: ${{ needs.hotfixrelease-prep.outputs.releases_created }}"
+          echo "Tag Name: ${{ needs.hotfixrelease-prep.outputs.tag_name }}"
+
   release-hotfix:
     name: Create Hotfix Release
     runs-on: ubuntu-latest
     if: ${{ needs.hotfixrelease-prep.outputs.releases_created == 'true' && !contains(needs.hotfixrelease-prep.outputs.tag_name, 'rc') }}
     needs: 
      - hotfixrelease-prep
+     - release-hotfix-checks
     steps:
       - name: Release Step
         run: |
