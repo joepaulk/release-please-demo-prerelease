@@ -63,8 +63,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ label-check ]
     outputs:
-      releases_created: ${{ steps.release.outputs.releases_created }}
-      tag_name: ${{ steps.release.outputs.tag_name }}
+      releases_created: ${{ steps.hotfixrelease.outputs.releases_created }}
+      tag_name: ${{ steps.hotfixrelease.outputs.tag_name }}
     # if: ${{ github.ref == 'refs/heads/release-hotfix' }}
     if: ${{ startsWith(github.ref, 'refs/heads/hotfix/') || (github.ref == 'refs/heads/release-hotfix') }}
     steps:
